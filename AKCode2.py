@@ -111,7 +111,7 @@ st.markdown("""
 # App Header with a gradient banner and image height equal to banner height
 col1, col2 = st.columns([2, 6])
 with col1:
-    st.image("CuCh.jpg", width=150, use_column_width=False)  # Adjusting image width for better visual alignment
+    st.image("CuCh.jpg", width=150, use_container_width=False)  # Adjusting image width for better visual alignment
     st.markdown("<div style='margin-bottom: 20px;'></div>", unsafe_allow_html=True)  # Adding space between the image and the banner
 with col2:
     st.markdown("""
