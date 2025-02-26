@@ -8,7 +8,7 @@ Created on Tue Feb 25 23:12:05 2025
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import matplotlib as plt
 import plotly.express as px
 import plotly.graph_objects as go
 import seaborn as sns
